@@ -68,12 +68,10 @@ def main():
     load_data(directory)
     print("Data loaded.")
 
-    # source = person_id_for_name(input("Name: "))
-    source = person_id_for_name("Tom Cruise")
+    source = person_id_for_name(input("Name: "))
     if source is None:
         sys.exit("Person not found.")
-    # target = person_id_for_name(input("Name: "))
-    target = person_id_for_name("Tom Hanks")
+    target = person_id_for_name(input("Name: "))
     if target is None:
         sys.exit("Person not found.")
 
