@@ -112,7 +112,6 @@ def minimax(board):
             if max_value < v:
                 v = max_value
                 optimal_action = action
-    
     return optimal_action
 
 def min_value_func(board):
